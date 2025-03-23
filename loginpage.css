@@ -38,15 +38,15 @@
 
 .cola{
     height: 905px;
-    width: 1010px;
+    width: 610px;
     position: fixed;
     top: -40%;
     right: -70%;
 }
 
 .pizza{
-    height: 900px;
-    width: 1250px;
+    height: 530px;
+    width: 630px;
     position: fixed;
     top: -40%;
     left: -70%;
@@ -68,7 +68,7 @@
 
 /* Glow and float effect on hover */
 .pizza:hover {
-    filter: drop-shadow(0 0 15px rgba(60,26,185, 0.8)); /* Orange glow */
+    filter: drop-shadow(0 0 15px rgba(60,26,185, 0.8));
 }
 
 /* Floating Animation */
