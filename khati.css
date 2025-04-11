@@ -28,7 +28,7 @@
     border-radius: 40px;
     display: flex;
     align-items: center;
-    margin-right: 60px;
+    margin-right: 50px;
 }
 
 .navbar_option li{
@@ -81,29 +81,36 @@
 }
 
 .card_container{
-    height: 500px;
-    width: 100vw;
+    height: 650px;
+    width: auto;
     background-color: rgba(255,244,183, 0.5);
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    margin-top: 2px;
+    overflow-x: auto;
+    flex-wrap: wrap;
 }
 
+
 .card-img-top{
-    height: 300px;
+    height: 150px;
 }
 
 .card_food{
     padding: 5px;
     border-radius: 20px;
+    /* min-width: 18rem; */
+    min-width: 250px;
+    margin: 15px;
 }
 
 .card_food {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
+}
   
 .card_food:hover {
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  }
+}
+
+
+  
