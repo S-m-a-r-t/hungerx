@@ -98,7 +98,6 @@
 .card_food{
     padding: 5px;
     border-radius: 20px;
-    /* min-width: 18rem; */
     min-width: 250px;
     margin: 15px;
 }
@@ -112,5 +111,12 @@
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
+.card_prize{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
 
+.card-title{
+    font-size: 1.4rem;
+}
   
