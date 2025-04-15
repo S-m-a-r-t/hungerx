@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    padding: 20px;
+}
+
+.back_nav{
+    font-size: larger;
+    margin-bottom: 20px;
+}
+
+.arrow{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cart_title{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.main_cart{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart_item{
+    height: 550px;
+    width: 1200px;
+    background-color: rgba(127, 255, 212, 0.4);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cart_item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.payment{
+    height: 550px;
+    width: 600px;
+    background-color: rgba(86, 90, 187, 0.8);
+    margin: 10px;
+    border-radius: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 15px;
+    text-align: center;
+}
+
+.payment h4{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.payment p{
+    font-size: 1.4rem;
+}
+
+.payment:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.food_selected li{
+    list-style-type: none;
+    font-size: 2rem
+}
+
+.cart_total{
+    font-size: 1.7rem;
+}
+
+.cart_item p{
+    font-size: 1.7rem;
+}
+
+.payment_type{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pyament_type1{
+    width: 50%;
+    height: 80px;
+    background-color: wheat;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pyament_type1:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.payment_type2{
+    width: 50%;
+    height: 80px;
+    background-color: rebeccapurple;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.payment_type2:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.payment p{
+    font-size: 1.5rem;
+}
