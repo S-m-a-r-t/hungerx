@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const cartList = document.querySelector('.food_selected');
     const totalElement = document.querySelector('.cart_total');
     const clearCartBtn = document.querySelector('.cart_clear');
+    const totalpayment = document.querySelector('.payment_total');
 
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
     let total = 0;
@@ -40,6 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     totalElement.textContent = `Total: ₹${total}`;
+    totalpayment.innerText = `Total Payment: ₹${total}`;
 
     // Clear Cart button handler
     if (clearCartBtn) {
@@ -47,6 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.removeItem('cart');
         cartList.innerHTML = '';
         totalElement.textContent = 'Total: ₹0';
+        totalpayment.innerText = `Total Payment: ₹0`;
       });
     }
   }
